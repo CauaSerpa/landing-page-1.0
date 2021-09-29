@@ -8,27 +8,27 @@ html{
 }
 
 @font-face{
-	src:url('../font/WorkSans-Medium.ttf');
+	src:url('WorkSans-Medium.ttf');
 	font-family: "Medium";
 }
 
 @font-face{
-	src:url('../font/WorkSans-SemiBold.ttf');
+	src:url('WorkSans-SemiBold.ttf');
 	font-family: "SemiBold";
 }
 
 @font-face{
-	src:url('../font/WorkSans-ExtraBoldItalic.ttf');
+	src:url('WorkSans-ExtraBoldItalic.ttf');
 	font-family: "ExtraBoldItalic";
 }
 
 @font-face{
-	src:url('../font/WorkSans-Bold.ttf');
+	src:url('WorkSans-Bold.ttf');
 	font-family: "Bold";
 }
 
 body{
-	background-image: url(../images/BG1.jpg);
+	background-image: url('BG1.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
