@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+@font-face{
+	src:url('../font/WorkSans-Medium.ttf');
+	font-family: "Medium";
+}
+
+@font-face{
+	src:url('../font/WorkSans-SemiBold.ttf');
+	font-family: "SemiBold";
+}
+
+@font-face{
+	src:url('../font/WorkSans-ExtraBoldItalic.ttf');
+	font-family: "ExtraBoldItalic";
+}
+
+@font-face{
+	src:url('../font/WorkSans-Bold.ttf');
+	font-family: "Bold";
+}
+
+body{
+	background-image: url(../images/BG1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.creditos{
+	position: fixed;
+	bottom: 8px;
+	right: 16px;
+	font-family: "SemiBold";
+	font-size: 17px;
+	color: #fff;
+	z-index: 9999;
+}
+
+.creditos a{
+	text-decoration: none;
+	color: #8248e0;
+	cursor: pointer;
+}
+
+.astronauta{
+	float: left;
+	padding-top: 20px;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 25px;
+	font-family: "Bold";
+	cursor: pointer;
+}
+
+.sidebar{
+	float: right;
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: "SemiBold";
+}
+
+.sidebar a{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 100px;
+}
+
+
+.texto{
+	position: absolute;
+	top: 35%;
+	font-size: 18px;
+	padding-left: 50px;
+}
+
+.texto h1{
+	font-size: 95px;
+	padding-bottom: 15px;
+	color: #fff;
+	font-family: ExtraBoldItalic;
+}
+
+.texto p{
+	color: #fff;
+	font-family: "Medium";
+}
+
+.botão{
+	padding-left: 50px;
+	position: absolute;
+	top: 58%;	
+}
+
+input{
+	padding: 10px 10px 10px 10px;
+	border: none;
+	border-radius: 20px;
+	font-family: "SemiBold";
+	background-color: #2AD9CE;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+input:hover{
+	background-color: #1E9F98;
+}
